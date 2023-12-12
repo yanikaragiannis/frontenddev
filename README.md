@@ -43,7 +43,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Home  
-  <img src="basiswebsite/readme-images/Screenshot2023-12-04at182655.png" width="375px" alt="screenshot small screen van homepagina">
+  <img src="basiswebsite/readme-images/digitalbeanvoorpagina.png" width="375px" alt="screenshot small screen van homepagina">
 
 </details>
 
@@ -100,7 +100,7 @@ Aangezien ik niet echt fan ben van de nav van de oorspronkelijk Digital Bean sit
   <img src="basiswebsite/readme-images/ss1html.png" width="375px" alt="html van de eerste staat van de voorpagina">
 
   Digital Bean nav
-  <img src="basiswebsite/readme-images/Screenshot2023-12-04at192833.png.png" width="375px" alt="Digital Bean navigatie">
+  <img src="basiswebsite/readme-images/digitalbeannav.png.png" width="375px" alt="Digital Bean navigatie">
 
 Daarnaast was ik begonnen met het maken van de voorpagina, de achtergrond heb ik er netjes in kunnen krijgen alleen lukte mij het niet om alle pictogrammen bij elkaar te houden en in de juiste posities te zetten. Dit liet ik voor nu even naast mij en ging verder met de rest van de site.
 
