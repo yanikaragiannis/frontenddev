@@ -41,11 +41,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Home  
-  <img src="../readme-images/Screenshot 2023-12-04 at 18.26.55.png" width="375px" alt="screenshot small screen van homepagina">
+  <img src="basiswebsite/readme-images/Screenshot 2023-12-04 at 18.26.55.png" width="375px" alt="screenshot small screen van homepagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Over ons  
-  <img src="readme-images/Screenshot 2023-12-04 at 18.28.26.png" width="375px" alt="screenshot small screen van tweede pagina">
+  <img src="../readme-images/Screenshot 2023-12-04 at 18.28.26.png" width="375px" alt="screenshot small screen van tweede pagina">
  
 </details>
 
@@ -75,10 +75,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina:
-  <img src="readme-images/breakdown.png" width="375px" alt="breakdown van de hele pagina">
+  <img src="../readme-images/breakdown.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/breakdown2.png" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="../readme-images/breakdown2.png" width="375px" alt="breakdown van een dynamisch deel">
 
 </details>
 
@@ -92,16 +92,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+In week 2 was ik begonnen met het maken van de nav, hier was hij nog niet responsive en kreeg hij dus geen hamburger menu als het scherm kleiner werd.
+Aangezien ik niet echt fan ben van de nav van de oorspronkelijk Digital Bean site wilde ik deze aanpassen met een nette background color ipv van een wit vlak.
 
-
-  ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  <img src="../readme-images/breakdown2.png" width="375px" alt="breakdown van een dynamisch deel">
 
 </details>
 
