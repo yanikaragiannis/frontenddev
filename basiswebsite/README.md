@@ -100,7 +100,7 @@ Aangezien ik niet echt fan ben van de nav van de oorspronkelijk Digital Bean sit
   <img src="basiswebsite/readme-images/ss1html.png" width="375px" alt="html van de eerste staat van de voorpagina">
 
   Digital Bean nav
-  <img src="basiswebsite/readme-images/digitalbeannav.png.png" width="375px" alt="Digital Bean navigatie">
+  <img src="basiswebsite/readme-images/digitalbeannav.png" width="375px" alt="Digital Bean navigatie">
 
 Daarnaast was ik begonnen met het maken van de voorpagina, de achtergrond heb ik er netjes in kunnen krijgen alleen lukte mij het niet om alle pictogrammen bij elkaar te houden en in de juiste posities te zetten. Dit liet ik voor nu even naast mij en ging verder met de rest van de site.
 
@@ -124,8 +124,8 @@ Daarnaast was ik begonnen met het maken van de voorpagina, de achtergrond heb ik
   Week 3 was voor mij de meest vervelende week van ze allemaal. In week 3 had ik een nav (niet responsive), voorpagina en de info pagina onder de voorpagina alleen had ik toen een probleem dat maar niet weg wilde gaan. Het probleem was dat er een element was die maar bleef uitsteken aan de zijkant, ik kon dit element maar niet vinden dus vroeg ik aan een studentassistent of hij mij kon helpen. Nadat hij even mijn code had bekeken zei hij dat het misschien beter was als ik even opnieuw zou beginnen, opzich had ik hier geen probleem mee aangezien ik alles makelijk terug kon krijgen maar het meest vervelende was dat het niet hielp om opnieuw te beginnen. Nadat ik de nav en voorpagina terug had toegevoegd stak er nog steeds een magisch gedeelte uit de pagina.
 
   <img src="basiswebsite/readme-images/readme-images/pagina-nog-niet-responsive.png" width="375px" alt="breakdown van een dynamisch deel">
-  <img src="basiswebsite/readme-images/readme-images/pagina-nog-niet-responsive.png2" width="375px" alt="breakdown van een dynamisch deel">
-  <img src="basiswebsite/readme-images/readme-images/pagina-nog-niet-responsive.png3" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="basiswebsite/readme-images/readme-images/pagina-nog-niet-responsive2.png" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="basiswebsite/readme-images/readme-images/pagina-nog-niet-responsive3.png" width="375px" alt="breakdown van een dynamisch deel">
 
   Dus vroeg ik de volgende les van deze week aan Marten of hij mij kon helpen en natuurlijk heeft hij het probleem weten op te lossen. Hierdoor kon ik verder met het vullen van de site.
 
@@ -158,16 +158,16 @@ Daarnaast was ik begonnen met het maken van de voorpagina, de achtergrond heb ik
   ### Stand van zaken
   Week 4 was de laatste week waar we konden werken aan het vak. Hier heb ik de meeste meters weten te maken aangezien ik in deze week mijn volledige pagina responsive heb weten te maken, EINDELIJK het github pages probleem weten op te lossen samen met Marten en ik de laatste content heb kunnen plaatsen in mijn pagina. Al met al ben ik blij met het resultaat en vind ik dat deze site er beter uitziet dan het orginele.
 
-  <img src="basiswebsite/readme-images/nav-is-responsive" width="375px" alt="responsive nav">
-  <img src="basiswebsite/readme-images/nav-is-responsive2" width="375px" alt="responsive nav 2">
+  <img src="basiswebsite/readme-images/nav-is-responsive.png" width="375px" alt="responsive nav">
+  <img src="basiswebsite/readme-images/nav-is-responsive2.png" width="375px" alt="responsive nav 2">
 
-  <img src="basiswebsite/readme-images/form1" width="375px" alt="form in progress">
-  <img src="basiswebsite/readme-images/form-html" width="375px" alt="form in progress html">
-  <img src="basiswebsite/readme-images/form-css" width="375px" alt="form in progress css">
-  <img src="basiswebsite/readme-images/form-css2" width="375px" alt="form in progress css2">
+  <img src="basiswebsite/readme-images/form1.png" width="375px" alt="form in progress">
+  <img src="basiswebsite/readme-images/form-html.png" width="375px" alt="form in progress html">
+  <img src="basiswebsite/readme-images/form-css.png" width="375px" alt="form in progress css">
+  <img src="basiswebsite/readme-images/form-css2.png" width="375px" alt="form in progress css2">
 
-  <img src="basiswebsite/readme-images/form-af" width="375px" alt="form">
-  <img src="basiswebsite/readme-images/form-af-css" width="375px" alt="form css">
+  <img src="basiswebsite/readme-images/form-af.png" width="375px" alt="form">
+  <img src="basiswebsite/readme-images/form-af-css.png" width="375px" alt="form css">
 
 
 </details>

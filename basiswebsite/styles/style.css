@@ -1,4 +1,3 @@
-
 /******************** body ********************/
 * {
     box-sizing: border-box;
@@ -11,6 +10,7 @@ body {
     --color1: #FFF;
     --color2: #181818;
 }
+
 /******************** body ********************/
 
 /******************************************************/
@@ -18,6 +18,7 @@ body {
 /******************************************************/
 .nav-bar {
     width: 100%;
+    height: 50%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -122,6 +123,7 @@ body {
         right: 0;
     }
 }
+
 /******************************************************/
 /******************** header + nav ********************/
 /******************************************************/
@@ -135,8 +137,10 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     color: whitesmoke;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-auto-rows: 45vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    font-size: 20px;
 }
 
 .voorpagina a {
@@ -151,7 +155,6 @@ body {
 }
 
 .tekstvoorpagina {
-    grid-area: 1 / 1;
     padding: 10vw;
 }
 
@@ -164,39 +167,25 @@ body {
     margin-bottom: 4em;
 }
 
-.plaatjesvoorpagina {
-    grid-area: 1 / 2;
-}
-
 .plaatjesvoorpagina img {
     display: grid;
     margin: 5vw;
 }
 
 .monitor {
-    grid-area: 1 / 2 / 1 / 2;
-    width: 30vw;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width: 40vw;
+    transition: transform 0.3s;
 }
 
-.search {
-    grid-area: 1 / 2 / 1 / 2;
+.monitor:hover {
+    transform: translateY(100px);
+
 }
 
-.paper {
-    grid-area: 1 / 2 / 1 / 2;
-}
-
-.cloud {
-    grid-area: 1 / 2 / 1 / 2;
-}
-
-.levelup {
-    grid-area: 1 / 2 / 1 / 2;
-}
-
-.speaker {
-    grid-area: 1 / 2 / 1 / 2;
-}
 /******************************************************/
 /******************** voorpagina **********************/
 /******************************************************/
@@ -260,6 +249,7 @@ body {
     grid-row-end: 4;
     margin: 1vw;
 }
+
 /******************************************************/
 /******************** info ****************************/
 /******************************************************/
@@ -276,7 +266,7 @@ form {
 }
 
 .form {
-    background-image: url(../images/slider2.jpeg) ;
+    background-image: url(../images/slider2.jpeg);
     color: white;
     padding-top: 5em;
     padding-bottom: 5em;
@@ -306,69 +296,164 @@ form a {
     padding: 20px;
     background-color: #181818;
 }
+
 /******************************************************/
 /******************** form ****************************/
 /******************************************************/
 
 
 /******************************************************/
-/******************** diensten ****************************/
+/************** diensten + onlinemarketing ************/
 /******************************************************/
 .diensten {
-    margin-top: 2em;
-    margin-bottom: 2em;
-    text-align: center;
+    display: grid;
+    margin-top: 4em;
+    margin-bottom: 4em;
+    place-items: center;
 }
 
 .diensten ul {
     display: grid;
-    grid-template-columns:  10em 10em 10em;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 22em 22em 22em;
+    grid-template-rows: repeat(auto-fit, 1fr);
     column-gap: 10px;
     row-gap: 10px;
     list-style: none;
-    margin: 1em;
+    margin-top: 2em;
 }
 
 .diensten li {
-   padding: 1em;
-   background-color: rgb(203, 180, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(230, 230, 240);
+    border-radius: 3%;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
+
+.diensten li img {
+    display: flex;
+}
+
+.diensten li a {
+    display: flex;
+    background-color: rgb(230, 230, 240);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.diensten h3 {
+    font-size: 32px;
+    margin-bottom: 0.4;
+}
+
+.diensten h4 {
+    font-size: 18px;
+    margin-bottom: 0.5;
+}
+
+.onlinemarketing h5 {
+    font-size: 26px;
+}
+
+.onlinemarketing {
+    display: grid;
+    grid-template-columns: 20em 20em;
+    column-gap: 80px;
+    background-color: #181818;
+    color: white;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+.onlinemarketing h5 {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    font-size: 26px;
+}
+
+.onlinemarketing p {
+    place-items: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: grid;
+}
+
+.onlinemarketing a {
+    background-color: rgb(230, 230, 240);
+    padding: 1em;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    display: grid;
+    color: #181818;
+    text-decoration: none;
+}
+
+.onlinemarketing img {
+    width: 18em;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: grid;
+}
+
 /******************************************************/
 /******************** diensten ****************************/
 /******************************************************/
-
-
-/******************************************************/
-/******************** werkproces ****************************/
-/******************************************************/
-.werkproces {
-    margin: 1em;
-}
-/******************************************************/
-/******************** werkprces ****************************/
-/******************************************************/
-
 
 /******************************************************/
 /******************** footer ****************************/
 /******************************************************/
 footer {
-    margin: 1em;
+    display: grid;
+    grid-template-columns: 20em 20em 20em;
+    background-color: #181818;
+    color: white;
+    padding: 4em;
+}
+
+footer a {
+    color: white;
 }
 
 footer ul {
     list-style: none;
+    margin: 1em;
 }
+
+footer section {
+    margin: 4em;
+}
+
+footer address {
+    padding: 5em;
+    margin-bottom: 2em;
+}
+
 /******************************************************/
 /******************** footer ****************************/
 /******************************************************/
 
-
 /*****************************************************/
 /********************** media **********************/
 /*****************************************************/
-@media (max-width: 900px) {
+
+/******************** voorpagina ********************/
+@media (max-width: 800px) {
     .voorpagina h1 {
         font-size: 20px;
         margin-bottom: 0.8em;
@@ -380,7 +465,17 @@ footer ul {
     }
 
     .voorpagina {
-        height: 25em;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        font-size: 20px;
+    }
+
+    .monitor {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
     }
 }
 
@@ -389,18 +484,48 @@ footer ul {
         font-size: 14px;
     }
 }
+/******************** voorpagina ********************/
 
-/******************** h2 .info ********************/
+/******************** info ********************/
+
+.info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 20em 20em 20em;
+    margin-top: 5vw;
+    margin-bottom: 15vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font-size: 20px;
+}
 
 @media (max-width: 1000px) {
+
+    .info {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 10em 10em 10em 10em;
+        margin-top: 5vw;
+        margin-bottom: 15vw;
+        margin-left: 10vw;
+        margin-right: 10vw;
+        font-size: 20px;
+    }
+
     .info h2 {
         font-size: 18px;
     }
-}
 
-/******************** p .info ********************/
+    .info img {
+        display: grid;
+        place-items: center;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-end: 4;
+        grid-row-end: 5;
+        width: 40vw;
+    }
 
-@media (max-width: 1000px) {
     .info p {
         font-size: 10px;
     }
@@ -422,7 +547,20 @@ footer ul {
     .info p {
         font-size: 11px;
     }
+
+    .info {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 15em 15em 15em 15em;
+        margin-top: 5vw;
+        margin-bottom: 15vw;
+        margin-left: 10vw;
+        margin-right: 10vw;
+        font-size: 20px;
+    }
 }
+
+/******************** info ********************/
 
 /******************** form ********************/
 
@@ -440,6 +578,139 @@ footer ul {
         padding: 20px;
     }
 }
+
+/******************** form ********************/
+
+/******************** diensten + online marketing ********************/
+
+@media (max-width: 1100px) {
+    .diensten ul {
+        display: grid;
+        grid-template-columns: 22em 22em;
+        grid-template-rows: repeat(auto-fit, 1fr);
+        column-gap: 10px;
+        row-gap: 10px;
+        list-style: none;
+        margin-top: 2em;
+    }
+}
+
+@media (max-width: 750px) {
+    .diensten ul {
+
+        display: grid;
+        grid-template-columns: 22em;
+        grid-template-rows: repeat(auto-fit, 1fr);
+        column-gap: 10px;
+        row-gap: 10px;
+        list-style: none;
+        margin-top: 2em;
+    }
+}
+
+@media (max-width: 900px) {
+    .onlinemarketing {
+        display: grid;
+        grid-template-columns: 20em;
+        grid-template-rows: 2em 10em 12em;
+        column-gap: 80px;
+        background-color: #181818;
+        color: white;
+        padding-top: 4em;
+        padding-bottom: 4em;
+        padding-left: 10vw;
+        padding-right: 10vw;
+        margin-top: 5em;
+        margin-bottom: 5em;
+    }
+
+    .onlinemarketing h5 {
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        font-size: 26px;
+    }
+
+    .onlinemarketing p {
+        place-items: center;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        display: grid;
+    }
+
+    .onlinemarketing a {
+        background-color: rgb(230, 230, 240);
+        padding: 1em;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        display: grid;
+        color: #181818;
+        text-decoration: none;
+    }
+
+
+    .onlinemarketing img {
+        width: 18em;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        display: grid;
+    }
+}
+
+/******************** diensten + online marketing ********************/
+
+/******************** footer ********************/
+@media (max-width: 1000px) {
+    footer {
+        display: grid;
+        grid-template-columns: 20em 20em;
+        grid-template-rows: 20em 20em;
+        background-color: #181818;
+        color: white;
+        padding: 4em;
+    }
+}
+
+@media (max-width: 750px) {
+    footer {
+        display: grid;
+        grid-template-columns: 20em;
+        grid-template-rows: 20em 20em 20em;
+        background-color: #181818;
+        color: white;
+        padding: 4em;
+    }
+}
+
+@media (max-width: 400px) {
+    .onlinemarketing {
+        display: grid;
+        grid-template-columns: 20em;
+        grid-template-rows: 2em 10em 12em;
+        column-gap: 80px;
+        background-color: #181818;
+        color: white;
+        padding-top: 4em;
+        padding-bottom: 4em;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        margin-top: 5em;
+        margin-bottom: 5em;
+    }
+
+}
+
+/******************** footer ********************/
+
+
 /*****************************************************/
 /********************** media **********************/
 /*****************************************************/
