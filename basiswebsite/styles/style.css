@@ -267,6 +267,7 @@ form {
 
 .form {
     background-image: url(../images/slider2.jpeg);
+
     color: white;
     padding-top: 5em;
     padding-bottom: 5em;
@@ -467,7 +468,7 @@ footer address {
     .voorpagina {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 14em 1fr;
         font-size: 20px;
     }
 
@@ -476,6 +477,7 @@ footer address {
         grid-column-end: 2;
         grid-row-start: 2;
         grid-row-end: 3;
+        width: 15em;
     }
 }
 
@@ -551,7 +553,7 @@ footer address {
     .info {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 15em 15em 15em 15em;
+        grid-template-rows: 11em 11em 11em 10em;
         margin-top: 5vw;
         margin-bottom: 15vw;
         margin-left: 10vw;
