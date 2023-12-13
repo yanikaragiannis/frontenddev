@@ -123,9 +123,9 @@ Daarnaast was ik begonnen met het maken van de voorpagina, de achtergrond heb ik
   ### Stand van zaken
   Week 3 was voor mij de meest vervelende week van ze allemaal. In week 3 had ik een nav (niet responsive), voorpagina en de info pagina onder de voorpagina alleen had ik toen een probleem dat maar niet weg wilde gaan. Het probleem was dat er een element was die maar bleef uitsteken aan de zijkant, ik kon dit element maar niet vinden dus vroeg ik aan een studentassistent of hij mij kon helpen. Nadat hij even mijn code had bekeken zei hij dat het misschien beter was als ik even opnieuw zou beginnen, opzich had ik hier geen probleem mee aangezien ik alles makelijk terug kon krijgen maar het meest vervelende was dat het niet hielp om opnieuw te beginnen. Nadat ik de nav en voorpagina terug had toegevoegd stak er nog steeds een magisch gedeelte uit de pagina.
 
-  <img src="basiswebsite/readme-images/readme-images/pagina-nog-niet-responsive.png" width="375px" alt="breakdown van een dynamisch deel">
-  <img src="basiswebsite/readme-images/readme-images/pagina-nog-niet-responsive2.png" width="375px" alt="breakdown van een dynamisch deel">
-  <img src="basiswebsite/readme-images/readme-images/pagina-nog-niet-responsive3.png" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="basiswebsite/readme-images/pagina-nog-niet-responsive.png" width="375px" alt="pag">
+  <img src="basiswebsite/readme-images/pagina-nog-niet-responsive2.png" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="basiswebsite/readme-images/pagina-nog-niet-responsive3.png" width="375px" alt="breakdown van een dynamisch deel">
 
   Dus vroeg ik de volgende les van deze week aan Marten of hij mij kon helpen en natuurlijk heeft hij het probleem weten op te lossen. Hierdoor kon ik verder met het vullen van de site.
 
@@ -169,6 +169,11 @@ Daarnaast was ik begonnen met het maken van de voorpagina, de achtergrond heb ik
   <img src="basiswebsite/readme-images/form-af.png" width="375px" alt="form">
   <img src="basiswebsite/readme-images/form-af-css.png" width="375px" alt="form css">
 
+  <img src="basiswebsite/readme-images/dienstenknoppen.png" width="375px" alt="form css">
+  <img src="basiswebsite/readme-images/onlinemarketing.png" width="375px" alt="form css">
+  <img src="basiswebsite/readme-images/onlinemarketingaf.png" width="375px" alt="form css">
+
+  
 
 </details>
 
@@ -182,19 +187,16 @@ Daarnaast was ik begonnen met het maken van de voorpagina, de achtergrond heb ik
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
-
+  <img src="basiswebsite/readme-images/pagina1.png" width="375px" alt="uitomst opdracht 1">
+  <img src="basiswebsite/readme-images/pagina2.png" width="375px" alt="uitomst opdracht 1">
+  <img src="basiswebsite/readme-images/pagina3.png" width="375px" alt="uitomst opdracht 1">
+  <img src="basiswebsite/readme-images/pagina4.png" width="375px" alt="uitomst opdracht 1">
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
-
+  Ik heb tijdens dit proces geleerd wat grids zijn en hoe je hier mee moet werken, heb geleerd wat media queries zijn en hoe je deze moet gebruiken en hoe je je pagina op github pages moet zetten;) Zonder grappen heb ik wel echt het gevoel dat ik enorm veel heb geleerd over je pagina responsive maken en waar je dan allemaal op moet gaan letten. Ik ben daarom blij met het resultaat en vooral blij met het proces ernaartoe.
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  Het enige dat mij niet was gelukt om toe te passen was het gebruik maken van auto-fit / auto-fill. Dit wilde ik graag gebruiken voor het responsive maken van mijn pagina maar helaas lukte dit mij niet en heb ik het daarom opgelost door verschillende media queries te gebruiken. Er waren enorm veel tegenslagen gaande weg maar het is mij uiteindelijk toch gelukt om het allemaal in orde te krijgen.
 </details>
 
 
@@ -206,11 +208,6 @@ Daarnaast was ik begonnen met het maken van de voorpagina, de achtergrond heb ik
 <details open>
   <summary>continu bijhouden terwijl je werkt</summary>
 
-  Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg). 
-  Nb. ChatGpT en andere AI horen er ook bij.
-  Nb. Vermeld de bronnen ook in je code.
-
   1. Een tutorial die mij hielp om een responsive nav te maken. ( Create a Responsive Hamburger Menu using only HTML and CSS | Responsive Navigation Menu https://www.youtube.com/watch?v=QQlxvj_GKss&t=147s )
-  2. bron 2
 
 </details>
