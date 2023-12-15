@@ -200,8 +200,11 @@ Daarnaast was ik begonnen met het maken van de voorpagina, de achtergrond heb ik
 </details>
 
 
-
-
+## Toegankelijkheid Checklist
+<details>
+  Deze toegankelijkheid checklist is ingevuld door Martin Fikri over de site die ik aanpas/ verbeter, Digital Bean.
+  <object data= /Users/yanikaragiannis/Desktop/basiswebsite/readme-images/fedchecklist.pdf></object>
+</details>
 
 ## Bronnenlijst
 
